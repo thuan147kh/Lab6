@@ -1,0 +1,44 @@
+:root{
+    --body_background: #ffffff;
+    --body_color: #444444;
+    --body_inner:  #545454;
+    --body_text: #000000;
+}
+[data-theme="dark"] {
+    --body_background: #171616;
+    --body_color: #ffffff;
+    --body_inner:  #545454;
+    --body_text: #ffffff;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--body_background);
+}
+
+.top {
+    width: 100vw;
+    height: 145px;
+    
+}
+
+.body{
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: var(--body_background);
+}
+
+.bottom {
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: var(--body_background);
+}

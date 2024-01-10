@@ -1,0 +1,35 @@
+.wrapper{
+    width: 100vw;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inner{
+    height: fit-content;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 115px;
+    background-color: var(--body_background);
+}
+
+//////////////// contain
+.contain {
+    height: 750px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+
+.a{
+    font-family: 'Playfair Display',serif;
+}

@@ -1,0 +1,52 @@
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-title {
+    margin: 0 0 50px 0;
+}
+
+input:focus {
+    border: 2px solid #000000;
+    outline: none;
+}
+
+.register-input{
+    display: block;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #ddd;
+    border-radius: 40px;
+    background-color: #fff;
+}
+
+.register button{
+    cursor: pointer;
+    width: 400px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 40px;
+    padding: 7px 0;
+}
+
+form.register h1{
+    text-align: center;
+}
+
+.login-redirect {
+    color: #000000;
+}
+
+.login-redirect:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px rgba(7, 6, 6, 5.0);
+}

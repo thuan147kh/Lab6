@@ -1,0 +1,13 @@
+{
+  "name": "Blog Web",
+  "version": "1.2.0",
+  "description": "This API documentation is used for instructing Blog Web API",
+  "title": "Blog Web API",
+  "url": "http://localhost:3000",
+  "sampleUrl": "http://localhost:3000",
+  "header": {
+    "title": "My API Documentation",
+    "content": "<p>This is a sample API documentation.</p>"
+  }
+}
+

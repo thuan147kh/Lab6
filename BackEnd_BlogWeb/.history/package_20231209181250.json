@@ -1,0 +1,49 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "dev": "node index.js",
+    "watch": "node-sass -w src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen_api_doc": "apidoc -i backend/src/routes/ -o backend/public/docs/"
+  },
+  "author": "levansy_20521854",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.11.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "escape-string-regexp": "^5.0.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.2",
+    "express-handlebars": "^7.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongodb": "^6.2.0",
+    "mongoose": "^6.12.3",
+    "mongoose-slug-generator": "^1.0.4",
+    "multer": "^1.4.3",
+    "mysql2": "^3.6.3",
+    "node-sass": "^9.0.0",
+    "sequelize": "^6.35.0"
+  },
+  "devDependencies": {
+    "engine": "^1.0.0",
+    "handlebars": "^4.5.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyLe-Van/NodeJS_v2.git"
+  },
+  "type": "module"
+}

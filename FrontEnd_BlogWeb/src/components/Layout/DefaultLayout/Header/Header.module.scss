@@ -1,0 +1,30 @@
+.wrapper {
+    height: 92px;
+    width: 100vw;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.inner {
+    height: 92px;
+    width: 1200px;
+    color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 170px;
+    height: 92px;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(8, 143, 247)
+    
+}
